@@ -1,1 +1,29 @@
 
+
+.top {
+    background-color: #03071e;
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .top a {
+    float: left;
+    color: #9d0208;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .top a:hover {
+    background-color: #ffba08;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .top a.active {
+    background-color: #dc2f02;
+    color:black;
+  }
